@@ -58,7 +58,7 @@ const SearchBar = () => {
         {/* Search input field */}
         <input
           type="search"
-          placeholder="Search Google..."
+          placeholder="Search QueryHub..."
           className="flex-grow px-4 py-2 text-sm rounded-md bg-transparent focus:outline-none"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
